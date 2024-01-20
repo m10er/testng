@@ -101,6 +101,6 @@ public class SoftAssertion {
         //17. Sayfayi kapatin
         softAssert.assertAll();
 
-        driver.quit();
+        Driver.closeDriver();
     }
 }

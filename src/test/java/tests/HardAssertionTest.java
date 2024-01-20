@@ -31,7 +31,7 @@ public class HardAssertionTest {
         testOtomasyonuPage.searchBox.sendKeys("Nutella"+ Keys.ENTER);
 
         Assert.assertTrue(testOtomasyonuPage.foundProductsElements.isEmpty());
-        Driver.quitDriver();
+        Driver.closeDriver();
 
 
     }

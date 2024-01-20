@@ -56,7 +56,7 @@ public class WebUniverstiyTest {
         //10.Ilk sayfaya donuldugunu test edin
         Assert.assertEquals(driver.getCurrentUrl(), "https://webdriveruniversity.com/");
 
-        driver.quit();
+        Driver.closeDriver();
 
     }
 }

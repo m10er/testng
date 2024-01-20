@@ -25,7 +25,7 @@ public class PozitifLoginTest {
 
          Assert.assertTrue(testOtomasyonuPage.logOutElement.isDisplayed());
 
-         driver.close();
+         Driver.closeDriver();
 
 
      }

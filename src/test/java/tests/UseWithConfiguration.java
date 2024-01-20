@@ -32,7 +32,7 @@ public class UseWithConfiguration {
 
         Assert.assertTrue(actualProductName.contains(expectedProdcutName));
 
-        driver.close();
+        Driver.closeDriver();
 
     }
 }

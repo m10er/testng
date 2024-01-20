@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="desired Classes run">
+<test name="Success Login test">
+
+</test>
+    <test name="Unsuccess Login test">
+    <classes>
+         <class name="tests.WebUniverstiyTest"></class>
+        <class name="tests.HardAssertionTest"></class>
+        <class name="tests.SoftAssertion"></class>
+    </classes>
+    </test>
+</suite>
